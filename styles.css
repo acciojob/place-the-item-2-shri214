@@ -1,62 +1,26 @@
 .container{
 	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
+	flex-flow: row wrap;
 	justify-content: center;
-	margin: 20px;
-}
-
-.box{
-	display: flex;
-	flex-wrap: wrap;
-}
-.box1{
-	height: 100px;
-	width: 100px;
-	background-color: red;
-	font-size: 3rem;
-}
-.box2{
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	font-size: 3rem;
-}
-.box3{
-	height: 100px;
-	width: 100px;
-	background-color: green;
-	font-size: 3rem;
-}
-
-
-
-.container1{
-	display: flex;
-	flex-direction: row-reverse;
-	flex-wrap: wrap;
-	justify-content: center;
-	margin: 20px;
-	height: 200px;
-	width: 600px;
-}
-.b2{
-	height: 100px;
-	width: 100px;
-	background-color: blue;
-	font-size: 3rem;
-	position: absolute;
-	margin-top: 100px;
+	margin: 10px;
 }
 .b1{
 	height: 100px;
 	width: 100px;
 	background-color: red;
-	font-size: 3rem;
+	font-size: 2rem;
+	order: 1;
+}
+.b2{
+	height: 100px;
+	width: 100px;
+	background-color: blue;
+	font-size: 2rem;
+	order: 2;
 }
 .b3{
 	height: 100px;
 	width: 100px;
 	background-color: green;
-	font-size: 3rem;
+	font-size: 2rem;
 }
